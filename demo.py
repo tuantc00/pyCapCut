@@ -8,8 +8,7 @@ draft_folder = cc.DraftFolder(r"<你的草稿文件夹>")
 
 tutorial_asset_dir = os.path.join(os.path.dirname(__file__), 'readme_assets', 'tutorial')
 assert os.path.exists(tutorial_asset_dir), f"未找到例程素材文件夹{os.path.abspath(tutorial_asset_dir)}"
-
-# 创建CapCut草稿
+# vậy hãy tạo GUI đầy đủ các chức năng, mỗi chức năng sẽ có tooltip để giải thích sử dụng, không tự ý thay đổi code phần xử lý# 创建CapCut草稿
 script = draft_folder.create_draft("demo", 1920, 1080, allow_replace=True)  # 1920x1080分辨率
 
 # 添加音频、视频和文本轨道

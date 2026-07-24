@@ -14,3 +14,10 @@ venv/
 
 tools/
 ignored/
+
+frontend/node_modules/
+frontend/*.tsbuildinfo
+frontend/vite.config.js
+frontend/vite.config.d.ts
+pycapcut_gui/web_dist/
+packaging/output/

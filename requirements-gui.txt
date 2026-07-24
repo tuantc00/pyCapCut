@@ -1,0 +1,9 @@
+pymediainfo
+imageio
+uiautomation>=2; sys_platform == "win32"
+fastapi>=0.110
+uvicorn>=0.27
+pydantic>=2
+python-multipart>=0.0.9
+pywebview>=5; sys_platform == "win32"
+pyinstaller>=6; sys_platform == "win32"
